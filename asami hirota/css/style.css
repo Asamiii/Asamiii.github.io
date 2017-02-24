@@ -1,0 +1,198 @@
+.
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+
+
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-weight: lighter;
+
+}
+body {
+  background: white;
+  font-family: cursive;
+  
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container {
+   width: 100%;
+   margin: 0 auto;
+   
+
+}
+
+.common-sectin-text {
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-family: cursive;
+  font-weight: 200;
+  line-height: 2;
+  color: #333;
+}
+
+.header-navgation {
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0;                  /* 位置(上0px) */
+    z-index: 1;                  /* 位置(右0px) */
+    width: 100%;       
+    background-color:white;
+            
+}
+
+.header-navgation h1{
+  color: black;
+  text-align: left;
+  font-family: cursive;
+  font-size: 15px;
+  text-align: center;
+}
+.header-navgation-list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.header-navgation-list-item {
+  list-style-type: none;
+}
+
+
+.header-navgation-list-item > a {
+  display: block;
+  padding: 8px,0;
+  text-decoration: none;
+  color: black;
+}
+.header-navgation-list-item > a:hover {
+  text-decoration: underline overline ;
+  transition: .5s;
+}
+.hedder-visual-img {
+   width:120px;
+   margin:0 auto;
+   display:block;
+    }
+.main-visual {
+  position: relative;
+  padding-top: 250px;
+}
+
+.top-visual-img {
+    display: block;
+    width: 30%;
+}
+
+.main-visual-title {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  color:black;
+  font-size: 15px;
+  text-align: right;
+  margin:20;
+  }
+
+.common-section-title {
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+    top: 100%;
+    left: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: black;
+    margin:30px;
+    }
+
+.gallery{
+  position: relative;
+  padding-top: 200px;
+  height: 950px;
+
+}
+
+.gallaly-bottom{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background: black;
+
+}
+
+
+
+.gallery-menu{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  float: left;
+
+}
+
+.sns{
+  position: relative;
+  padding-top: 200px;
+  height: 950px;
+}
+
+.common-sectin-text{
+  font-size: 15px;
+  color:black;
+  text-align: center;
+}
+.sns-right-icon{
+  height: 200px;
+  width: 200px;
+  margin:0 550px;
+  
+}
+
+.contact{
+  position: relative;
+  padding-top: 200px;
+}
+.contact-form{
+  margin: 40px 450px 40px 450px;
+  text-align: center;
+  font-size: 15px;
+  color:black;
+}
+
+
+.input,.textarea { 
+  width: 700px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 50px;
+  font-size: 18px;
+  border:1px solid #dee7ec;
+
+}
+.contact-submit {
+  cursor: pointer;
+}
+
+
+.page-footer {
+   height: 60px;
+   background: black;
+}
+
+.page-footer-copy {
+  letter-spacing: 1px; 
+  text-align: center;
+  padding-top: 15px;
+  color: #fff;
+}
